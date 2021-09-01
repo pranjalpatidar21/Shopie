@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ug3-#y_5_$7jj6b#ft)0s0yp3ry&0u148-qty4syukcwakggio
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','shopie01.herokuapp.com/']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -45,7 +45,6 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
